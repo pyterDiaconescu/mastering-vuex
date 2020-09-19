@@ -11,10 +11,15 @@
 import { mapState } from 'vuex';
 
 export default {
-  computed: mapState([
-    'user',
-    'categories'
-  ])
+  computed: {
+    catLength() {
+      return this.$store.state.categories.length
+    },
+    ...mapState([
+      'user',
+      'categories'
+    ])
+  }
 }
 </script>
 

@@ -71,6 +71,24 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 8977742,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "browsing grass",
+      "description": "",
+      "location": "turf",
+      "date": "2020-09-01T13:27:00.000Z",
+      "time": "",
+      "attendees": []
     }
   ]
 }

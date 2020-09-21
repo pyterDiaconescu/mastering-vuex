@@ -30,10 +30,10 @@ import { mapState } from 'vuex'
 export default {
   props: ['id'],
   computed: mapState({
-    event: state => state.event
+    event: state => state.event.event
   }),
   created() {
-    this.$store.dispatch('fetchEvent', this.id)
+    this.$store.dispatch('event/fetchEvent', this.id)
   }
 }
 </script>
